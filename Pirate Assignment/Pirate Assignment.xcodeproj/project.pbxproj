@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91D9F8BC1A0412D100D2F642 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D9F8BB1A0412D100D2F642 /* Tile.m */; };
+		91D9F8BF1A0414BE00D2F642 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D9F8BE1A0414BE00D2F642 /* Factory.m */; };
 		91EA17091A03C33F0025BDA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA17081A03C33F0025BDA9 /* main.m */; };
 		91EA170C1A03C33F0025BDA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA170B1A03C33F0025BDA9 /* AppDelegate.m */; };
 		91EA170F1A03C33F0025BDA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA170E1A03C33F0025BDA9 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91D9F8BA1A0412D100D2F642 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		91D9F8BB1A0412D100D2F642 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		91D9F8BD1A0414BE00D2F642 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		91D9F8BE1A0414BE00D2F642 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		91EA17031A03C33E0025BDA9 /* Pirate Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EA17071A03C33E0025BDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91EA17081A03C33F0025BDA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +66,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91D9F8B91A04127100D2F642 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91D9F8C01A0414CA00D2F642 /* Factory */,
+				91D9F8BA1A0412D100D2F642 /* Tile.h */,
+				91D9F8BB1A0412D100D2F642 /* Tile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		91D9F8C01A0414CA00D2F642 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				91D9F8BD1A0414BE00D2F642 /* Factory.h */,
+				91D9F8BE1A0414BE00D2F642 /* Factory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		91EA16FA1A03C33D0025BDA9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,7 @@
 				91EA170B1A03C33F0025BDA9 /* AppDelegate.m */,
 				91EA170D1A03C33F0025BDA9 /* ViewController.h */,
 				91EA170E1A03C33F0025BDA9 /* ViewController.m */,
+				91D9F8B91A04127100D2F642 /* Model */,
 				91EA17101A03C33F0025BDA9 /* Main.storyboard */,
 				91EA17131A03C33F0025BDA9 /* Images.xcassets */,
 				91EA17151A03C33F0025BDA9 /* LaunchScreen.xib */,
@@ -219,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D9F8BF1A0414BE00D2F642 /* Factory.m in Sources */,
 				91EA170F1A03C33F0025BDA9 /* ViewController.m in Sources */,
 				91EA170C1A03C33F0025BDA9 /* AppDelegate.m in Sources */,
 				91EA17091A03C33F0025BDA9 /* main.m in Sources */,
+				91D9F8BC1A0412D100D2F642 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +440,7 @@
 				91EA17281A03C33F0025BDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91EA17291A03C33F0025BDA9 /* Build configuration list for PBXNativeTarget "Pirate AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				91EA172B1A03C33F0025BDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
