@@ -134,19 +134,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ja6-ct-2jr">
-                                <rect key="frame" x="247" y="483" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="N">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="northButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pqj-xT-gT5"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bZ3-tZ-S7S">
                                 <rect key="frame" x="223" y="512" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -186,16 +173,39 @@
                                     <action selector="southButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kAC-gQ-HGl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ja6-ct-2jr">
+                                <rect key="frame" x="247" y="485" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="N">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="northButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pqj-xT-gT5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fSo-UU-BI7">
+                                <rect key="frame" x="26" y="512" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Oul-pT-nOO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="backgroundImageView" destination="vlG-FQ-Vg1" id="UY7-OU-PIt"/>
                         <outlet property="buttonAcao" destination="ufe-KO-vBc" id="Y7S-nB-SCD"/>
-                        <outlet property="buttonLeste" destination="ECu-IR-uKY" id="nXX-cU-6X2"/>
-                        <outlet property="buttonNorte" destination="ECu-IR-uKY" id="Mbu-A8-wCY"/>
-                        <outlet property="buttonOeste" destination="bZ3-tZ-S7S" id="9Uq-eH-pbQ"/>
-                        <outlet property="buttonSul" destination="Ka1-HC-UeE" id="A2G-bz-tbT"/>
+                        <outlet property="buttonEast" destination="ECu-IR-uKY" id="93m-f5-M6Q"/>
+                        <outlet property="buttonNorth" destination="Ja6-ct-2jr" id="zj3-PQ-f8S"/>
+                        <outlet property="buttonSouth" destination="Ka1-HC-UeE" id="mP3-xp-MWN"/>
+                        <outlet property="buttonWest" destination="bZ3-tZ-S7S" id="gUT-ww-YNF"/>
                         <outlet property="labelArma" destination="qW1-ga-gbi" id="PXd-iV-NPP"/>
                         <outlet property="labelDano" destination="oaM-64-GKz" id="6PE-mF-fTL"/>
                         <outlet property="labelHistoria" destination="0Kt-KC-Riq" id="JYS-1n-Dc2"/>

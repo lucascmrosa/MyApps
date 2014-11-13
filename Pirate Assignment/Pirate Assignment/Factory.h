@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "Tile.h"
+#import "Character.h"
+#import "Boss.h"
+
 @interface Factory : NSObject
 
 -(NSArray *)tiles;
-
+-(Character *)character;
+-(Boss *)boss;
 @end

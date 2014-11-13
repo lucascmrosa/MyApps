@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91174FC21A129B5D00E44224 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 91174FC11A129B5D00E44224 /* Weapon.m */; };
+		91174FC51A129BA300E44224 /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91174FC41A129BA300E44224 /* Armor.m */; };
+		91174FC81A129BFD00E44224 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 91174FC71A129BFD00E44224 /* Character.m */; };
+		912C989F1A1146DA0033DFBF /* espadaCurta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C989E1A1146DA0033DFBF /* espadaCurta.jpg */; };
+		912C98A11A1149730033DFBF /* chainMail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A01A1149730033DFBF /* chainMail.jpg */; };
+		912C98A31A114A490033DFBF /* pirateDock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A21A114A490033DFBF /* pirateDock.jpg */; };
+		912C98AD1A114C880033DFBF /* attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A41A114C880033DFBF /* attack.jpg */; };
+		912C98AE1A114C880033DFBF /* boss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A51A114C880033DFBF /* boss.jpg */; };
+		912C98AF1A114C880033DFBF /* chest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A61A114C880033DFBF /* chest.jpg */; };
+		912C98B01A114C880033DFBF /* chestSea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A71A114C880033DFBF /* chestSea.jpg */; };
+		912C98B11A114C880033DFBF /* kraken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A81A114C880033DFBF /* kraken.jpg */; };
+		912C98B21A114C880033DFBF /* pirateParrot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98A91A114C880033DFBF /* pirateParrot.jpg */; };
+		912C98B31A114C880033DFBF /* piratePistol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98AA1A114C880033DFBF /* piratePistol.jpg */; };
+		912C98B41A114C880033DFBF /* piratePlank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98AB1A114C880033DFBF /* piratePlank.jpg */; };
+		912C98B51A114C880033DFBF /* shipBattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912C98AC1A114C880033DFBF /* shipBattle.jpg */; };
+		913BE3741A13E2CC000F052B /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 913BE3731A13E2CC000F052B /* Boss.m */; };
 		91D9F8BC1A0412D100D2F642 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D9F8BB1A0412D100D2F642 /* Tile.m */; };
 		91D9F8BF1A0414BE00D2F642 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D9F8BE1A0414BE00D2F642 /* Factory.m */; };
 		91EA17091A03C33F0025BDA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA17081A03C33F0025BDA9 /* main.m */; };
@@ -29,6 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91174FC01A129B5D00E44224 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		91174FC11A129B5D00E44224 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		91174FC31A129BA300E44224 /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		91174FC41A129BA300E44224 /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		91174FC61A129BFD00E44224 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		91174FC71A129BFD00E44224 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		912C989E1A1146DA0033DFBF /* espadaCurta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = espadaCurta.jpg; sourceTree = "<group>"; };
+		912C98A01A1149730033DFBF /* chainMail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chainMail.jpg; sourceTree = "<group>"; };
+		912C98A21A114A490033DFBF /* pirateDock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirateDock.jpg; sourceTree = "<group>"; };
+		912C98A41A114C880033DFBF /* attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attack.jpg; sourceTree = "<group>"; };
+		912C98A51A114C880033DFBF /* boss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boss.jpg; sourceTree = "<group>"; };
+		912C98A61A114C880033DFBF /* chest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chest.jpg; sourceTree = "<group>"; };
+		912C98A71A114C880033DFBF /* chestSea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chestSea.jpg; sourceTree = "<group>"; };
+		912C98A81A114C880033DFBF /* kraken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kraken.jpg; sourceTree = "<group>"; };
+		912C98A91A114C880033DFBF /* pirateParrot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirateParrot.jpg; sourceTree = "<group>"; };
+		912C98AA1A114C880033DFBF /* piratePistol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratePistol.jpg; sourceTree = "<group>"; };
+		912C98AB1A114C880033DFBF /* piratePlank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratePlank.jpg; sourceTree = "<group>"; };
+		912C98AC1A114C880033DFBF /* shipBattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shipBattle.jpg; sourceTree = "<group>"; };
+		913BE3721A13E2CC000F052B /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		913BE3731A13E2CC000F052B /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 		91D9F8BA1A0412D100D2F642 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
 		91D9F8BB1A0412D100D2F642 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		91D9F8BD1A0414BE00D2F642 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -66,12 +102,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		912C989D1A1146530033DFBF /* ImagesForBackground */ = {
+			isa = PBXGroup;
+			children = (
+				912C98A41A114C880033DFBF /* attack.jpg */,
+				912C98A51A114C880033DFBF /* boss.jpg */,
+				912C98A61A114C880033DFBF /* chest.jpg */,
+				912C98A81A114C880033DFBF /* kraken.jpg */,
+				912C98A71A114C880033DFBF /* chestSea.jpg */,
+				912C98A91A114C880033DFBF /* pirateParrot.jpg */,
+				912C98AA1A114C880033DFBF /* piratePistol.jpg */,
+				912C98AB1A114C880033DFBF /* piratePlank.jpg */,
+				912C98AC1A114C880033DFBF /* shipBattle.jpg */,
+				912C98A21A114A490033DFBF /* pirateDock.jpg */,
+				912C98A01A1149730033DFBF /* chainMail.jpg */,
+				912C989E1A1146DA0033DFBF /* espadaCurta.jpg */,
+			);
+			name = ImagesForBackground;
+			sourceTree = "<group>";
+		};
 		91D9F8B91A04127100D2F642 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				91D9F8C01A0414CA00D2F642 /* Factory */,
 				91D9F8BA1A0412D100D2F642 /* Tile.h */,
 				91D9F8BB1A0412D100D2F642 /* Tile.m */,
+				91174FC01A129B5D00E44224 /* Weapon.h */,
+				91174FC31A129BA300E44224 /* Armor.h */,
+				91174FC41A129BA300E44224 /* Armor.m */,
+				91174FC11A129B5D00E44224 /* Weapon.m */,
+				91174FC61A129BFD00E44224 /* Character.h */,
+				91174FC71A129BFD00E44224 /* Character.m */,
+				913BE3721A13E2CC000F052B /* Boss.h */,
+				913BE3731A13E2CC000F052B /* Boss.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -122,6 +185,7 @@
 		91EA17061A03C33E0025BDA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				912C989D1A1146530033DFBF /* ImagesForBackground */,
 				91EA17071A03C33E0025BDA9 /* Info.plist */,
 				91EA17081A03C33F0025BDA9 /* main.m */,
 			);
@@ -225,9 +289,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912C98B21A114C880033DFBF /* pirateParrot.jpg in Resources */,
+				912C98B11A114C880033DFBF /* kraken.jpg in Resources */,
+				912C98AF1A114C880033DFBF /* chest.jpg in Resources */,
+				912C98B41A114C880033DFBF /* piratePlank.jpg in Resources */,
 				91EA17121A03C33F0025BDA9 /* Main.storyboard in Resources */,
+				912C98A11A1149730033DFBF /* chainMail.jpg in Resources */,
+				912C98B31A114C880033DFBF /* piratePistol.jpg in Resources */,
 				91EA17171A03C33F0025BDA9 /* LaunchScreen.xib in Resources */,
 				91EA17141A03C33F0025BDA9 /* Images.xcassets in Resources */,
+				912C98B51A114C880033DFBF /* shipBattle.jpg in Resources */,
+				912C989F1A1146DA0033DFBF /* espadaCurta.jpg in Resources */,
+				912C98AD1A114C880033DFBF /* attack.jpg in Resources */,
+				912C98B01A114C880033DFBF /* chestSea.jpg in Resources */,
+				912C98AE1A114C880033DFBF /* boss.jpg in Resources */,
+				912C98A31A114A490033DFBF /* pirateDock.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91174FC51A129BA300E44224 /* Armor.m in Sources */,
 				91D9F8BF1A0414BE00D2F642 /* Factory.m in Sources */,
 				91EA170F1A03C33F0025BDA9 /* ViewController.m in Sources */,
+				91174FC81A129BFD00E44224 /* Character.m in Sources */,
 				91EA170C1A03C33F0025BDA9 /* AppDelegate.m in Sources */,
+				91174FC21A129B5D00E44224 /* Weapon.m in Sources */,
+				913BE3741A13E2CC000F052B /* Boss.m in Sources */,
 				91EA17091A03C33F0025BDA9 /* main.m in Sources */,
 				91D9F8BC1A0412D100D2F642 /* Tile.m in Sources */,
 			);

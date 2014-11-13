@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88815C4F-6C0F-4781-BCB7-C68A914CBA9A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Prep For Pirate Assignment</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5CC0B727757CD93FC5A48208A2A3FEC2D2F60C54</key>
+		<string>https://github.com/lucascmrosa/MyApps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Prep For Pirate Assignment/Prep For Pirate Assignment.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5CC0B727757CD93FC5A48208A2A3FEC2D2F60C54</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lucascmrosa/MyApps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5CC0B727757CD93FC5A48208A2A3FEC2D2F60C54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5CC0B727757CD93FC5A48208A2A3FEC2D2F60C54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cursoIphone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
