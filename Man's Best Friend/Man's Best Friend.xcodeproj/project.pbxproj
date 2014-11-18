@@ -135,11 +135,8 @@
 				91711DB219B8A1E1009E09D4 /* Main.storyboard */,
 				91711DB519B8A1E1009E09D4 /* LRViewController.h */,
 				91711DB619B8A1E1009E09D4 /* LRViewController.m */,
-				91482B0F19B8FCF400850A26 /* LRDog.h */,
-				91482B1019B8FCF400850A26 /* LRDog.m */,
-				912BF6A719C3220900CB4327 /* LRPuppy.h */,
-				912BF6A819C3220900CB4327 /* LRPuppy.m */,
 				91711DB819B8A1E1009E09D4 /* Images.xcassets */,
+				91A622B81A15160A00C2FF67 /* Models */,
 				91711DA719B8A1E1009E09D4 /* Supporting Files */,
 			);
 			path = "Man's Best Friend";
@@ -178,6 +175,17 @@
 				91711DC819B8A1E2009E09D4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91A622B81A15160A00C2FF67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91482B0F19B8FCF400850A26 /* LRDog.h */,
+				91482B1019B8FCF400850A26 /* LRDog.m */,
+				912BF6A719C3220900CB4327 /* LRPuppy.h */,
+				912BF6A819C3220900CB4327 /* LRPuppy.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
