@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var messageTextField: UITextField!
+    @IBOutlet weak var nameLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -27,9 +28,16 @@ class ViewController: UIViewController {
 
     @IBAction func sendPressed(sender: UIButton) {
         messageLabel.hidden = false
+        nameLabel.hidden = false
+        nameLabel.text = nameTextField.text
         messageLabel.text = messageTextField.text
+        messageLabel.textColor = UIColor.redColor()
+        nameLabel.textColor = UIColor.yellowColor()
         messageTextField.text = ""
-        messageTextField.resignFirstResponder()
+        nameTextField.text = ""
+        
+        //messageTextField.resignFirstResponder()
+        
     }
 
 }
