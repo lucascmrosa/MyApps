@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F3FD0F1A362228001405D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FD0E1A362228001405D2 /* AppDelegate.swift */; };
+		91F3FD111A362228001405D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FD101A362228001405D2 /* ViewController.swift */; };
+		91F3FD141A362228001405D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F3FD121A362228001405D2 /* Main.storyboard */; };
+		91F3FD161A362228001405D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F3FD151A362228001405D2 /* Images.xcassets */; };
+		91F3FD191A362228001405D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F3FD171A362228001405D2 /* LaunchScreen.xib */; };
+		91F3FD251A362229001405D2 /* TamanhoSapatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FD241A362229001405D2 /* TamanhoSapatoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91F3FD1F1A362229001405D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F3FD011A362227001405D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F3FD081A362228001405D2;
+			remoteInfo = TamanhoSapato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91F3FD091A362228001405D2 /* TamanhoSapato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamanhoSapato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F3FD0D1A362228001405D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F3FD0E1A362228001405D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91F3FD101A362228001405D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91F3FD131A362228001405D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91F3FD151A362228001405D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91F3FD181A362228001405D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		91F3FD1E1A362229001405D2 /* TamanhoSapatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamanhoSapatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F3FD231A362229001405D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F3FD241A362229001405D2 /* TamanhoSapatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamanhoSapatoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F3FD061A362228001405D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3FD1B1A362229001405D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F3FD001A362227001405D2 = {
+			isa = PBXGroup;
+			children = (
+				91F3FD0B1A362228001405D2 /* TamanhoSapato */,
+				91F3FD211A362229001405D2 /* TamanhoSapatoTests */,
+				91F3FD0A1A362228001405D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F3FD0A1A362228001405D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FD091A362228001405D2 /* TamanhoSapato.app */,
+				91F3FD1E1A362229001405D2 /* TamanhoSapatoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F3FD0B1A362228001405D2 /* TamanhoSapato */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FD0E1A362228001405D2 /* AppDelegate.swift */,
+				91F3FD101A362228001405D2 /* ViewController.swift */,
+				91F3FD121A362228001405D2 /* Main.storyboard */,
+				91F3FD151A362228001405D2 /* Images.xcassets */,
+				91F3FD171A362228001405D2 /* LaunchScreen.xib */,
+				91F3FD0C1A362228001405D2 /* Supporting Files */,
+			);
+			path = TamanhoSapato;
+			sourceTree = "<group>";
+		};
+		91F3FD0C1A362228001405D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FD0D1A362228001405D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91F3FD211A362229001405D2 /* TamanhoSapatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FD241A362229001405D2 /* TamanhoSapatoTests.swift */,
+				91F3FD221A362229001405D2 /* Supporting Files */,
+			);
+			path = TamanhoSapatoTests;
+			sourceTree = "<group>";
+		};
+		91F3FD221A362229001405D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FD231A362229001405D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F3FD081A362228001405D2 /* TamanhoSapato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3FD281A362229001405D2 /* Build configuration list for PBXNativeTarget "TamanhoSapato" */;
+			buildPhases = (
+				91F3FD051A362228001405D2 /* Sources */,
+				91F3FD061A362228001405D2 /* Frameworks */,
+				91F3FD071A362228001405D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamanhoSapato;
+			productName = TamanhoSapato;
+			productReference = 91F3FD091A362228001405D2 /* TamanhoSapato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91F3FD1D1A362229001405D2 /* TamanhoSapatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3FD2B1A362229001405D2 /* Build configuration list for PBXNativeTarget "TamanhoSapatoTests" */;
+			buildPhases = (
+				91F3FD1A1A362229001405D2 /* Sources */,
+				91F3FD1B1A362229001405D2 /* Frameworks */,
+				91F3FD1C1A362229001405D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F3FD201A362229001405D2 /* PBXTargetDependency */,
+			);
+			name = TamanhoSapatoTests;
+			productName = TamanhoSapatoTests;
+			productReference = 91F3FD1E1A362229001405D2 /* TamanhoSapatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F3FD011A362227001405D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lucas Rosa";
+				TargetAttributes = {
+					91F3FD081A362228001405D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					91F3FD1D1A362229001405D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 91F3FD081A362228001405D2;
+					};
+				};
+			};
+			buildConfigurationList = 91F3FD041A362227001405D2 /* Build configuration list for PBXProject "TamanhoSapato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91F3FD001A362227001405D2;
+			productRefGroup = 91F3FD0A1A362228001405D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F3FD081A362228001405D2 /* TamanhoSapato */,
+				91F3FD1D1A362229001405D2 /* TamanhoSapatoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F3FD071A362228001405D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3FD141A362228001405D2 /* Main.storyboard in Resources */,
+				91F3FD191A362228001405D2 /* LaunchScreen.xib in Resources */,
+				91F3FD161A362228001405D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3FD1C1A362229001405D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F3FD051A362228001405D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3FD111A362228001405D2 /* ViewController.swift in Sources */,
+				91F3FD0F1A362228001405D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3FD1A1A362229001405D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3FD251A362229001405D2 /* TamanhoSapatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91F3FD201A362229001405D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F3FD081A362228001405D2 /* TamanhoSapato */;
+			targetProxy = 91F3FD1F1A362229001405D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91F3FD121A362228001405D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F3FD131A362228001405D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91F3FD171A362228001405D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F3FD181A362228001405D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91F3FD261A362229001405D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91F3FD271A362229001405D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F3FD291A362229001405D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TamanhoSapato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91F3FD2A1A362229001405D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TamanhoSapato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91F3FD2C1A362229001405D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TamanhoSapatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamanhoSapato.app/TamanhoSapato";
+			};
+			name = Debug;
+		};
+		91F3FD2D1A362229001405D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TamanhoSapatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamanhoSapato.app/TamanhoSapato";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F3FD041A362227001405D2 /* Build configuration list for PBXProject "TamanhoSapato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3FD261A362229001405D2 /* Debug */,
+				91F3FD271A362229001405D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3FD281A362229001405D2 /* Build configuration list for PBXNativeTarget "TamanhoSapato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3FD291A362229001405D2 /* Debug */,
+				91F3FD2A1A362229001405D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91F3FD2B1A362229001405D2 /* Build configuration list for PBXNativeTarget "TamanhoSapatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3FD2C1A362229001405D2 /* Debug */,
+				91F3FD2D1A362229001405D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F3FD011A362227001405D2 /* Project object */;
+}
